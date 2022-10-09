@@ -23,7 +23,7 @@
 }
 h1 {
 	color:  white;
-	text-shadow: 2px 2px 8px #777F1C;
+	text-shadow: 2px 2px 8px #758761;
 	box-shadow: 2px 2px 5px #e0e0e0;
 	font-size: 50px;
 	font-family: montserrat;
@@ -55,6 +55,8 @@ article{
 	background-color:  #F4FFE5;
 	
 	margin:  auto;
+
+	margin-right:  50px;
 	padding:  25px;
 	max-width: 80%;
 	margin-bottom: 100px;
@@ -65,15 +67,50 @@ h2{
 	font-size: 35px;
 
 }
-p{
+p, nav{
 	font-family: montserrat;
 	font-size: 1em;
+
+}
+
+#page{
+	display:  flex;
+	flex-direction: row;
+}
+nav{
+	padding: 30px;
+	
+
+	background-color: #dceffa;	
+	height:  260px;
+	width:  250px;
+	margin:  30px;
+	margin-top: 0px;
+
+}
+ul{
+	list-style-type: none;
+	border-left: 2px solid #c3d4de;
+	padding-left:  15px;
+}
+a{
+	text-decoration: none;
+	color:  black;
+}
+li:hover{
+	background-color: #c3d4de;
+}
+h3{
+	padding:  0px;
+	margin:  0px;
 }
 footer{
 	background-color: #F3F3F3;
 	margin:  auto;
 	padding:  20px;
 }
+
+
 
 
 
